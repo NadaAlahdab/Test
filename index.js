@@ -277,3 +277,33 @@ class TicTacToe{
 const tictactoe = new TicTacToe();
 tictactoe.addPlayer(game,"X" , 0 ,0);
 tictactoe.checkWinner();
+
+//     checkWinner(game){
+//       for (let i = 0; i < game.length -1; i++) {
+//         for (let j = 0; j < game.length -1; j++) {
+//             if(i == j == "X")
+//                 return "Winner Is X"
+//             else if(i == j == "O")
+//                 return "Winner Is O"
+//             else if(game[0][0] =='X' && game[0][1] == 'X' && game[0][2] == 'X' ||
+//                     game[1][0] =='X' && game[1][1] == 'X' && game[1][2] == 'X' ||
+//                     game[2][0] =='X' && game[2][1] == 'X' && game[2][2] == 'X' ||
+
+//                     game[0][0] =='X' && game[1][0] == 'X' && game[2][0] == 'X' ||
+//                     game[0][1] =='X' && game[1][1] == 'X' && game[2][1] == 'X' ||
+//                     game[0][2] =='X' && game[1][2] == 'X' && game[2][2] == 'X')
+//              return "Winner is O"
+//             else if(game[0][0] =='O' && game[0][1] == 'O' && game[0][2] == 'O' ||
+//                     game[1][0] =='O' && game[1][1] == 'O' && game[1][2] == 'O' ||
+//                     game[2][0] =='O' && game[2][1] == 'O' && game[2][2] == 'O' ||
+
+//                     game[0][0] =='O' && game[1][0] == 'O' && game[2][0] == 'O' ||
+//                     game[0][1] =='O' && game[1][1] == 'O' && game[2][1] == 'O' ||
+//                     game[0][2] =='O' && game[1][2] == 'O' && game[2][2] == 'O')
+//              return "Winner is O "
+//         } 
+//       }
+//    }
+    // checkEndOfGame(game){
+    //    if(this.checkEndOfGame == ) 
+    // }
